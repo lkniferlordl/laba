@@ -1,6 +1,20 @@
 .istock_000048460746_large {
-  width: 1922px;
+  width: 1920px;
   height: 978px;
   object-fit: contain;
   background-color: rgba(72, 72, 72, 0.67);
+}
+
+.Home-DEMOS-Portfolio-Blog {
+  width: 872px;
+  height: 16px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.7;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
 }

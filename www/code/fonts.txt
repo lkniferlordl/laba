@@ -1,0 +1,21 @@
+1. подключение онлайн
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> прописать в <head>
+
+2. подключение локально
+создать папку fonts в проекте, положить в нее файлы со шрифтами
+прописать в CSS:
+@font-face {
+  
+	font-family: 'Montserrat';
+  
+	font-weight: normal;
+  
+	font-style: normal;
+  
+	src: url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff');
+
+}
+
+Как пользоваться:
+в CSS:
+font-family: "Roboto", Arial, sans-serif;
